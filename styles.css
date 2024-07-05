@@ -1,0 +1,92 @@
+/* Reset padding and margin for all elements */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* Basic body styling */
+body {
+    background-color: #d8e2dc;
+    text-align: center;
+}
+
+/* Styling for the main title */
+h1 {
+    font-size: 3rem;
+    color: black;
+}
+
+/* Container to center the game grid */
+.container {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Game grid styling */
+.game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+/* Individual box styling */
+.box {
+    height: 18vmin;
+    width: 18vmin;
+    background-color: #9d8189;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 1rem rgba(106, 32, 106, 0.3);
+    font-size: 6vmin;
+    color: #ffe5d9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+/* Hover effect for the boxes */
+.box:hover {
+    background-color: #e0aeb5;
+    transform: scale(1.05);
+}
+
+/* Reset and new game button styling */
+#reset-btn, #new-btn {
+    padding: 1rem;
+    font-size: 1.25rem;
+    border: none;
+    border-radius: 15px;
+    background-color: #d4a373;
+    color: black;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+/* Hover effect for buttons */
+#reset-btn:hover, #new-btn:hover {
+    background-color: #b07d62;
+}
+
+/* Message styling */
+#msg {
+    font-size: 6vmin;
+    color: #632d3d;
+}
+
+/* Hide class to hide elements */
+.hide {
+    display: none;
+}
+
+/* Message container margin */
+.msg-container {
+    margin-top: 30px;
+}
