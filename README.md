@@ -1,4 +1,4 @@
-# Tic-Tac-Toe WebApplication
+# Tic-Tac-Toe WebGame
 Overview
 In this project, I developed a web-based Tic-Tac-Toe game as part of my internship at Prasunet Pvt. Ltd. The game allows two players to take turns marking spaces in a 3x3 grid with "O" or "X". The game ends when one player successfully aligns three marks in a horizontal, vertical, or diagonal row, or when all spaces are filled, resulting in a draw.
 
